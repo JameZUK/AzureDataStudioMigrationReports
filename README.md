@@ -5,6 +5,7 @@ Some scripts to ease the creation of SQL Migration Reports with data generated f
 2. Now collect stats for the databases. Using command line is best. Just create a batch file and add a new line as follows for each SQL Server. Note, each server output should be in its own folder. Note, I'm assuming you are using an account with DBOwner rights on these databases. See example:
 
 `start /D "C:\Program Files\Microsoft Data Migration Assistant\SqlAssessmentConsole\" SqlAssessment.exe PerfDataCollection  --sqlConnectionStrings "Data Source=<<MSSQL SERVER NAME>>;Initial Catalog=master;Integrated Security=True;"  --outputFolder C:\REPORTS\Data\<<MSSQL SERVER NAME>>`
+
 `start /D "C:\Program Files\Microsoft Data Migration Assistant\SqlAssessmentConsole\" SqlAssessment.exe PerfDataCollection  --sqlConnectionStrings "Data Source=<<MSSQL SERVER NAME1>>;Initial Catalog=master;Integrated Security=True;"  --outputFolder C:\REPORTS\Data\<<MSSQL SERVER NAME1>>`
 
 3. Leave the data collection running for as long as possible, ideally for at least a week but usually it is best to cover a month so that business trends (Highs and lows) are captured to a sensible result.
