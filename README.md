@@ -1,4 +1,4 @@
-# Azure Data Studio CSV Migration Reports  -Useful combined reports for right sizing and comatibility with Azure SQL, Managed SQL and SQL VM offerings
+# Azure Data Studio CSV Migration Reports - Useful combined reports for right sizing and compatibility with Azure SQL, Managed SQL and SQL VM offerings
 Some scripts to ease the creation of SQL Migration Reports with data generated from Azure Data Studio.
 ## How to gather and create combined Azure SQL, managed instance and SQL VM sizing reports
 1. Install Azure Data Studio
